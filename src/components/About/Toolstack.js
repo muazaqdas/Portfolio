@@ -1,11 +1,11 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-  SiLinux,
+  // SiLinux,
+  // SiPostman,
+  // SiVercel,
   SiVisualstudiocode,
-  SiPostman,
   SiHeroku,
-  SiVercel,
 } from "react-icons/si";
 
 function Toolstack() {
