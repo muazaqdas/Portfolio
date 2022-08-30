@@ -8,6 +8,8 @@ import Particle from "../Particle";
 // import suicide from "../../Assets/Projects/suicide.png";
 import agrizone from "../../Assets/Projects/AgriZone1.png";
 import emara from "../../Assets/Projects/Emara1.png";
+import note from "../../Assets/Projects/NoteKeeper1.png";
+import fitness from "../../Assets/Projects/FitnessApp.png";
 
 function Projects() {
   return (
@@ -38,6 +40,24 @@ function Projects() {
               description="A freelance project build with React.js and Bootstrap Css, showcasing client's various projects. A multipage portfolio website with image carousel."
               // ghLink=""
               demoLink="https://emara.netlify.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={note}
+              title="Note Keeper App"
+              description="Designed and developed an easy to use notes keeping app. Managed state using react hooks to easily write notes. Add & delete notes easily, just by clicking a button."
+              ghLink="https://github.com/muazaqdas/note-keeper-app/"
+              demoLink="http://note-keepers.netlify.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={fitness}
+              title="Fitness App:Dashboard"
+              description="Created an interactive dashboard for a fitness app using Bootstrap & React.Js. Fetching user data (example: user id, name, email) from a json object and displaying it on the dashboard. Added circular-progress-bars and routes for workout & nutrition page for each user."
+              ghLink="https://github.com/muazaqdas/Fitness-App-Dashboard"
+              demoLink="https://fitness-app-dashboard.netlify.app/"
             />
           </Col>
         </Row>

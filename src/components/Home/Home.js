@@ -4,6 +4,8 @@ import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+// import Spline from '@splinetool/react-spline';
+
 
 function Home() {
   return (
@@ -19,7 +21,6 @@ function Home() {
                   👋🏻
                 </span>
               </h1>
-
               <h1 className="heading-name">
                 I'M
                 <strong className="main-name"> MUAZ AQDAS</strong>
@@ -37,6 +38,7 @@ function Home() {
                 className="img-fluid"
                 style={{ maxHeight: "450px" }}
               />
+              {/* <Spline scene="https://prod.spline.design/zgRNXZLYJoXS-8gC/scene.splinecode" /> */}
             </Col>
           </Row>
         </Container>
