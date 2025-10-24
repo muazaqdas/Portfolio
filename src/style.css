@@ -746,3 +746,142 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+/* --------- */
+/* Project Badges */
+/* --------- */
+.project-badge {
+  display: inline-block;
+  padding: 5px 12px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.badge-team-lead {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3);
+}
+
+.badge-production {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  box-shadow: 0 2px 8px rgba(240, 147, 251, 0.3);
+}
+
+.badge-500-dau {
+  background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+  box-shadow: 0 2px 8px rgba(250, 112, 154, 0.3);
+}
+
+.badge-ai-powered {
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  box-shadow: 0 2px 8px rgba(79, 172, 254, 0.3);
+}
+
+.badge-in-development {
+  background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+  box-shadow: 0 2px 8px rgba(67, 233, 123, 0.3);
+}
+
+.badge-b2b {
+  background: linear-gradient(135deg, #fa8bff 0%, #2bd2ff 100%);
+  box-shadow: 0 2px 8px rgba(250, 139, 255, 0.3);
+}
+
+.badge-healthcare {
+  background: linear-gradient(135deg, #ff6e7f 0%, #bfe9ff 100%);
+  box-shadow: 0 2px 8px rgba(255, 110, 127, 0.3);
+}
+
+.badge-mobile-app {
+  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+  box-shadow: 0 2px 8px rgba(168, 237, 234, 0.3);
+}
+
+/* Badge hover effect */
+.project-badge:hover {
+  transform: translateY(-2px);
+  transition: transform 0.2s ease;
+}
+
+/* --------- */
+/* Multi-Image Grid for Projects */
+/* --------- */
+.project-image-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 10px;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.project-image-grid .grid-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 2px solid rgba(200, 137, 230, 0.3);
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.project-image-grid .grid-image:hover {
+  transform: scale(1.02);
+  border-color: rgba(200, 137, 230, 0.6);
+}
+
+/* Full-width project cards */
+.project-full-width {
+  max-width: 100%;
+}
+
+/* --------- */
+/* Project Placeholders */
+/* --------- */
+.project-placeholder {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3em;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+
+.project-placeholder span {
+  z-index: 1;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.placeholder-healthcare {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.placeholder-splitwise {
+  background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+}
+
+/* --------- */
+/* Responsive Adjustments */
+/* --------- */
+@media (max-width: 768px) {
+  /* Stack images vertically on mobile */
+  .project-image-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+  }
+
+  .project-placeholder {
+    height: 200px;
+    font-size: 1.1em;
+  }
+}

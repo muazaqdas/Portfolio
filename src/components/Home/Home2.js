@@ -19,38 +19,37 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I'm a <b className="purple">React Native developer</b> with 1+ years of professional experience building cross-platform mobile applications.
               <br />
-              <br />I am fluent in classics like
+              <br />
+              Currently at <b className="purple">Gatoes</b>, I lead mobile development and manage a team of 3 developers. I've built and deployed{" "}
               <i>
-                <b className="purple"> C++, Javascript and Python. </b>
-              </i>
+                <b className="purple">2 production apps in the App Store and Play Store</b>
+              </i>{" "}
+              serving <b className="purple">500+ daily active users</b>.
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My expertise includes &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
+                <b className="purple">React Native, TypeScript, Expo</b> and modern mobile technologies like{" "}
                 <b className="purple">
-                  Machine Learning.
+                  real-time systems, payment integrations, and AI/LLM APIs.
                 </b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with 
-              {/* <b className="purple"></b> and */}
+              I'm passionate about building seamless mobile experiences and integrating
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  cutting-edge AI features
                 </b>
               </i>
-              &nbsp; like
+              {" "}into production applications. I've built RAG-based chatbots with{" "}
               <i>
-                <b className="purple"> React.js</b>
-              </i>
+                <b className="purple">LLM integration</b>
+              </i>{" "}
+              and specialize in end-to-end feature ownership.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
